@@ -6,7 +6,8 @@
     "prefer-stable": true,
     "require": {
         "acquia/blt": "^9.2.0",
-        "drupal/webform": "^5.0"
+        "drupal/devel": "^1.2",
+        "drupal/webform": "^5.1"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.8"
