@@ -9,7 +9,9 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+  - 'drupalbltproject@svn-6123.devcloud.hosting.acquia.com:drupalbltproject.git'
+  - 'https://github.com/vsomu/drupal8.6.4-bltproject'
 deploy:
   tag_source: true
 drush:
@@ -34,3 +36,5 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cloud:
+  appId: 81733a67-16d0-495c-a3e6-8c148af14675
