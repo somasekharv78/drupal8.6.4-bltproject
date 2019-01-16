@@ -11,6 +11,7 @@ git:
   default_branch: master
   remotes:
   - 'drupalbltproject@svn-6123.devcloud.hosting.acquia.com:drupalbltproject.git'
+  - 'https://github.com/vsomu/drupal8.6.4-bltproject'
 deploy:
   tag_source: true
 drush:
